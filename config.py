@@ -34,15 +34,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/shaeep043/Iro_x")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/idkbots")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/iro_bot_support")
+    "SUPPORT_CHANNEL", "https://t.me/StudyxBots")
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/iro_x_support")
+    "SUPPORT_GROUP", "https://t.me/studyxsupport")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
