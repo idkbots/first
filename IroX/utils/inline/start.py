@@ -25,18 +25,18 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         [
             InlineKeyboardButton(
                 text="❄️ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴩ ❄️",
-                url=f"https://t.me/{BOT_USERNAME}?startgroup=new",
+                url=f"https://t.me/allen_music_bot?startgroup=new",
             )
         ],
         [
-            InlineKeyboardButton(text="☃˹ꜱᴜᴘᴘᴏʀᴛ˼☃", url=config.SUPPORT_GROUP),
-            InlineKeyboardButton(text="♪˹ᴜᴘᴅᴀᴛᴇꜱ˼♪", url=config.SUPPORT_CHANNEL),
+            InlineKeyboardButton(text="☃˹ꜱᴜᴘᴘᴏʀᴛ˼☃", url=f"https://t.me/StudyXSupport"),
+            InlineKeyboardButton(text="♪˹ᴜᴘᴅᴀᴛᴇꜱ˼♪", url=f"https://t.me/StudyXbots"),
         ],
         [
             InlineKeyboardButton(text="♡ Hᴇʟᴘ & Cᴏᴍᴍᴀɴᴅꜱ ♡", callback_data="settings_back_helper"),
         ],
         [
-            InlineKeyboardButton(text="☠Sᴏᴜʀᴄᴇ☠", url=config.GITHUB_REPO),
+            InlineKeyboardButton(text="☠Sᴏᴜʀᴄᴇ☠", url=f"https://pornhub.com),
             InlineKeyboardButton(text="ღ Oᴡɴᴇʀ ღ", user_id=OWNER),
         ],
     ]
