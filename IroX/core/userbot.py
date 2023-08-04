@@ -172,8 +172,8 @@ class Userbot(Client):
         if config.STRING5:
             await self.five.start()
             try:
-                await self.five.join_chat("iro_x_support")
-                await self.five.join_chat("iro_bot_support")
+                await self.five.join_chat("studyxsupport")
+                await self.five.join_chat("studyxbots")
             except:
                 pass
             assistants.append(5)
